@@ -8,13 +8,21 @@
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav ml-auto topnav">
                 <li class="nav-item">
-                    <a class="nav-link" routerLink="">Inicio</a>
+                    <a class="nav-link" routerLink="/">Inicio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" routerLink="/clientes">Clientes</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" routerLink="/servicios">Servicios</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/servicios" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Servicios
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Cursos</a>
+                        <a class="dropdown-item" href="#">Diplomados</a>
+                        <a class="dropdown-item" href="#">Consultoria</a>
+                        <a class="dropdown-item" href="#">Soporte</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" routerLink="/nosotros">Nosotros</a>
@@ -22,20 +30,7 @@
                 <li class="nav-item">
                     <a class="nav-link" routerLink="/contactanos">Contáctanos</a>
                 </li>
-                <!-- Dropdwon-->
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Servicios
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Cursos</a>
-                        <a class="dropdown-item" href="#">Diplomados</a>
-                        <!--<div class="dropdown-divider"></div>-->
-                        <a class="dropdown-item" href="#">Consultoria</a>
-                        <a class="dropdown-item" href="#">Soporte</a>
-                    </div>
-                </li>
                 <li class="nav-item">
                     <button class="nav-link btn" id="acceder" type="button" href="#">Acceder</button>                  
                 </li>
