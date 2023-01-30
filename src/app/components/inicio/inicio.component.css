@@ -1,0 +1,201 @@
+  /*--------------------------------------------------------------
+  # Mercadoreno
+  --------------------------------------------------------------*/
+  .logo{
+    width:500px;
+    height:325px;
+    margin-bottom: 20px;
+    filter:  drop-shadow(5px -1px 3px #000000) drop-shadow(7px 2px 4px var(--color-fourth));
+  }
+
+  #mercadoreno:before {
+    content: "";
+    background-image: url("src/assets/img/cta-bg.jpg");
+    position: absolute;
+    background-attachment: fixed;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  #mercadoreno .mercadoreno-container {
+    background: var(--mask-black-dark);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  #mercadoreno h2 {
+    color: var(--color-fourth);
+    padding: 5px 20px;
+    border-radius: 30px;
+    font-size: 25px;
+  }
+  
+  #mercadoreno h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: var(--color-fourth);
+  }
+  
+  #mercadoreno .btn-get-started {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 11px;
+    margin: 15px 0px;
+    letter-spacing: 1.5px;
+    padding: 8px 30px 9px 30px;
+    border-radius: 50px;
+    border: 1px solid var(--color-fourth);
+    color: var(--color-fourth);
+  }
+  
+  #mercadoreno .btn-get-started:hover{
+    border: 1px solid var(--color-main);
+    background-color: var(--color-main);
+  }
+
+  /*--------------------------------------------------------------
+  # Servicios
+  --------------------------------------------------------------*/
+  .curso{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .card{
+    padding: 10px;
+    background-color: var(--color-fourth);
+    border-radius: 5px;
+    border: 1px solid #f8fcfa;
+    border-radius: 9px;
+    cursor: pointer;
+    box-shadow: 2px 4px 40px rgb(19 15 235 / 10%);
+    transition: box-shadow 0.4s ease-in-out;
+  }
+
+  .card:hover{
+    box-shadow: 0px 0px 0px 1px red;
+    border: 1px solid var(--color-main);
+    transition: all linear 0.1s;
+  }
+
+  .card:hover h3{
+    color: var(--color-main);
+  }
+
+  .card h3{
+    margin-top: 10px;
+  }
+
+  .card p{
+    font-weight: 500;
+  }
+
+
+  .inicio-sub-title{
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+  }
+
+  .inicio-title{
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-title{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-family: var(--text-subtitle);
+    padding: 8px 20px;
+    line-height: 1;
+    margin: 60px 0px 30px 0px;
+    background: var(--color-fifth);
+    color: var(--color-main);
+    text-transform: uppercase;
+    border-radius: 50px;
+    
+  }
+
+  .inicio-sub-title span{
+    color: var(--color-main);
+  }
+  /*--------------------------------------------------------------
+  # F.A.Q
+  --------------------------------------------------------------*/
+  .faq {
+  padding: 60px 0;
+  }
+  
+  .faq .faq-list {
+  padding: 0;
+  list-style: none;
+  }
+  
+  .faq .faq-list li {
+  border-bottom: 1px solid #f1eeef;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  }
+  
+  .faq .faq-list .question {
+  display: block;
+  position: relative;
+  font-family: #e43c5c;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-left: 25px;
+  cursor: pointer;
+  color: #d01d3f;
+  transition: 0.3s;
+  }
+  
+  .faq .faq-list i {
+  font-size: 16px;
+  position: absolute;
+  left: 0;
+  top: -2px;
+  }
+  
+  .faq .faq-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 25px;
+  }
+  
+  .faq .faq-list .icon-show {
+  display: none;
+  }
+  
+  .faq .faq-list .collapsed {
+  color: black;
+  }
+  
+  .faq .faq-list .collapsed:hover {
+  color: #e43c5c;
+  }
+  
+  .faq .faq-list .collapsed .icon-show {
+  display: inline-block;
+  transition: 0.6s;
+  }
+  
+  .faq .faq-list .collapsed .icon-close {
+  display: none;
+  transition: 0.6s;
+  }
+  
+  @media (min-width: 1280px) {
+  .faq .container {
+    padding: 0 120px;
+  }
+  }
+  

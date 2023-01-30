@@ -1,0 +1,71 @@
+.container-fluid.wraped{
+  background-color: transparent;
+  height: 75px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  transition: all 1s ease;
+}
+
+.container-fluid.wraped.header-scrolled{
+  background-color: var(--color-third);
+  transition: all .8s ease;
+}
+
+.mercadoreno-logo{
+  width:300px;
+  height: 55px;
+}
+
+.navbar-dark li a{
+  color: var(--color-fourth);
+  font-family: var(--text-paragraph);
+}
+
+#acceder{
+  margin: 0px 10px;
+}
+
+.navbar li {
+  position: relative;
+}
+.navbar li:hover a{
+  color: var(--color-main);
+  border-bottom: 1px solid var(--color-main);
+  transition: all .6s ease-in;
+}
+
+.navbar li:active a{
+  border-bottom: 1px solid var(--color-main);
+}
+
+.nav-item button{
+  background-color: var(--color-main);
+  color: var(--color-fourth);
+}
+
+@media screen and (max-width:992px) {
+  #acceder{
+      margin: 10px 0px;
+  }
+
+  #header{
+    background-color: var(--color-third);
+  }
+  .container.navbar.navbar-expand-lg{
+    background-color: var(--color-third);
+  }
+}
+
+@media screen and (max-width:670px) {
+  .mercadoreno-logo{
+    width:250px;
+    height: 40px;
+  }
+
+  .container-fluid.wraped{
+    height: 65px;
+  }
+}
