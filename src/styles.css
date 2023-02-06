@@ -49,7 +49,7 @@
   }
 
   h3{
-    font-size: 30px;
+    font-size: 25px;
     font-family: var(--text-subtitle);
   }
 
@@ -58,3 +58,6 @@
     font-family: var(--text-paragraph);
   }
 
+ .container.start{
+  margin-top:100px;
+ }

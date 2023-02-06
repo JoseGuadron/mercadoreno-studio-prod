@@ -63,6 +63,11 @@
     background-color: var(--color-main);
   }
 
+  .fa-angles-down, .fa-chevron-down{
+    margin-top: 2%;
+    font-size:50px;
+    color: var(--color-fourth);
+  }
   /*--------------------------------------------------------------
   # Servicios
   --------------------------------------------------------------*/

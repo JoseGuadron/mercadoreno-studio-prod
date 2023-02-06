@@ -6,3 +6,35 @@
         display: block !important;
     }
 }
+
+.mision-content, .vision-content{
+    margin-top: 50px; 
+}
+
+.valores{
+    background-color: var(--color-third);
+    margin-top: 50px;
+    height: 60px;
+}
+
+.valores ul li{
+    color: var(--color-fourth);
+    
+}
+
+.shadow-right{
+    box-shadow: 15px 15px 0px 1px var(--color-main);
+    -webkit-box-shadow: 15px 15px 0px 1px var(--color-main);
+    -moz-box-shadow: 15px 15px 0px 1px var(--color-main);
+}
+
+.shadow-left{
+    box-shadow: -515px 15px 0px 1px var(--color-main);
+-webkit-box-shadow: -515px 15px 0px 1px var(--color-main);
+-moz-box-shadow: -515px 15px 0px 1px var(--color-main);
+}
+
+.valores li{
+    list-style-image:url('img/valores1.gif');
+    
+}
